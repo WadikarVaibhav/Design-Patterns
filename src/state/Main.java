@@ -7,6 +7,8 @@ public class Main {
 		context.pressButton();
 		context.setContext(new TrunedOffState());
 		context.pressButton();
+		context.setContext(new PausedState());
+		context.pressButton();
 	}
 
 }

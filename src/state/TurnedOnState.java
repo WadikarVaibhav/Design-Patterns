@@ -6,5 +6,4 @@ public class TurnedOnState implements IState {
 	public void pressButton(Context context) {
 		System.out.println("Tv is On...");
 	}
-
 }

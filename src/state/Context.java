@@ -1,6 +1,7 @@
 package state;
 
 public class Context {
+	
 	private IState state;
 	
 	public Context() {
